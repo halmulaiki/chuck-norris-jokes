@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <h1> Jokes</h1>
+    <hr>
+    <h2><%= joke = ChuckNorris::JokeFinder.get_joke
+      joke.joke  %></h2>
+      <hr>
+      <div onclick="location.reload()" id = "btn" > <a href="#"><img src="https://media.licdn.com/dms/image/C4D03AQGKBOY3zqOv6w/profile-displayphoto-shrink_800_800/0?e=1581552000&v=beta&t=142ZbJFaemc4ddVwyw60tw9luyIGLCTBxTNG4bFwbfI" width = "200px"alt=""></a> <p>please click on FACE to see more jokes</p></div>
+      <script src="main.js"></script>
+  </body>
+</html>

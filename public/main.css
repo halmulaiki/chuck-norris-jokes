@@ -1,0 +1,31 @@
+body{
+  background-color: orange;
+  font-weight: 300;
+  margin: 0;
+  text-align: center;
+  }
+
+#btn {
+  padding: 10px;
+
+  cursor: pointer;
+
+}
+#btn img{
+    border-radius: 90%;
+}
+#btn img:hover{
+  transform: scale(1.5);
+
+  transition: all .4s ease-in-out;
+}
+#btn p{
+font-size: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
